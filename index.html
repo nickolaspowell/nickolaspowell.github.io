@@ -8,40 +8,65 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Full Slider - Start Bootstrap Template</title>
+    <title>Nickolas Powell</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/full-slider.css" rel="stylesheet">
+	<link href="css/scrolling-nav.css" rel="stylesheet">
 
   </head>
 
   <body>
 
-    <!-- Navigation -->
+    Navigation
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">Start Bootstrap</a>
+        <a class="navbar-brand" href="#">Nickolas Powell</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home
-                <span class="sr-only">(current)</span>
-              </a>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+			<li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#resume">Resume</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+	
+	    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Nickolas Powell</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+            </li>
+			<li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#resume">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -57,24 +82,24 @@
         </ol>
         <div class="carousel-inner" role="listbox">
           <!-- Slide One - Set the background image for this slide in the line below -->
-          <div class="carousel-item active" style="background-image: url('http://placehold.it/1900x1080')">
+          <div class="carousel-item active" style="background-image: url('https://i.imgur.com/p2iplWI.jpg')">
             <div class="carousel-caption d-none d-md-block">
-              <h3>First Slide</h3>
-              <p>This is a description for the first slide.</p>
+              <h3>Foam Extraction Robot</h3>
+              <p>A robot equipped with a servo arm and basket to obtain foam blocks</p>
             </div>
           </div>
           <!-- Slide Two - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
+          <div class="carousel-item" style="background-image: url('https://i.imgur.com/bvWfTCs.jpg')">
             <div class="carousel-caption d-none d-md-block">
-              <h3>Second Slide</h3>
-              <p>This is a description for the second slide.</p>
+              <h3>Lego Gear Train</h3>
+              <p>A triple gear reduction to maximize torque</p>
             </div>
           </div>
           <!-- Slide Three - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
+          <div class="carousel-item" style="background-image: url('https://i.imgur.com/YtenJkD.jpg')">
             <div class="carousel-caption d-none d-md-block">
-              <h3>Third Slide</h3>
-              <p>This is a description for the third slide.</p>
+              <h3>Line Follower Robot</h3>
+              <p>Follows the black line across the ramp</p>
             </div>
           </div>
         </div>
@@ -89,27 +114,64 @@
       </div>
     </header>
 
-    <!-- Page Content -->
-    <section class="py-5">
+	    
+    <section id="about" class="py-5">
       <div class="container">
-        <h1>Full Slider by Start Bootstrap</h1>
-        <p>The background images for the slider are set directly in the HTML using inline CSS. The rest of the styles for this template are contained within the
-          <code>full-slider.css</code>
-          file.</p>
+	  
+
+	  
+        <h1>About Me</h1>
+        <p> I am a 4th year mechanical engineering students at UC Santa Barbara. I am interested in mobile robotics and computer-aided engineering programs like SolidWorks and COMSOL Multiphysics.</p>
+      </div>
+    </section>
+	
+		
+    <section id="projects" class="py-5">
+      <div class="container">
+	  
+
+	  
+        <h1>Projects</h1>
+		<img src="https://im2.ezgif.com/tmp/ezgif-2-17d4d92b41a1.gif"  />
+        <p> Autonomous robot equipped with IR sensors to detect and obtain objects.</p>
+      </div>
+    </section>
+		
+	<section id="resume" class="py-5">
+      <div class="container">
+	  
+
+        <h1>Resume</h1>
+        <h2 id="Resume"> <a href="C:\Users\earlj\Documents\GitHub\nickolaspowell.github.io\npowellresumefall.pdf" target="_blank"> Link</a> </h2>
+      </div>
+    </section>
+	
+	
+	<section id="contact" class="py-5">
+      <div class="container">
+	  
+
+	  
+        <h1>Contact</h1>
+        <p>Nickolas Powell </p>
+		<p>nickolasjpowell@gmail.com </p>
+		<p>(661) 972-8490 </p>
       </div>
     </section>
 
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2018</p>
+        <p class="m-0 text-center text-white">Copyright &copy; Nickolas Powell 2018</p>
       </div>
       <!-- /.container -->
     </footer>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/jquery/jquery.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.js"></script>
+	
+
 
   </body>
 
